@@ -13,7 +13,24 @@
 # npm ERR! Test failed.  See above for more details.
 # Error: Process completed with exit code 1. 
 
-name: Node.js CI
+# Run npm test
+
+# > actions-template@1.0.0 test /home/runner/work/github-actions-for-ci/github-actions-for-ci
+# > npx standard && npx jest
+
+# npx: installed 278 in 16.139s
+# No tests found, exiting with code 1
+# Run with `--passWithNoTests` to exit with code 0
+# In /home/runner/work/github-actions-for-ci/github-actions-for-ci
+#   7 files checked.
+  # testMatch: **/__tests__/**/*.[jt]s?(x), **/?(*.)+(spec|test).[tj]s?(x) - 0 matches
+  # testPathIgnorePatterns: /node_modules/ - 7 matches
+  # testRegex:  - 0 matches
+# Pattern:  - 0 matches
+# npm ERR! Test failed.  See above for more details.
+# Error: Process completed with exit code 1.
+
+# name: Node.js CI
 
 on:
   push:
