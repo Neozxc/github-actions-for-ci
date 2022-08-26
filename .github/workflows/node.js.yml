@@ -3,6 +3,7 @@
 
 # npm run test
 # npx standard && npx jest
+# Run npm ci
 
 on:
   push:
