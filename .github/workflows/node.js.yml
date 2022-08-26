@@ -1,6 +1,17 @@
 # This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and run tests across different versions of node
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
+
+
 # Jest package is failing
+# Run npm test
+
+# > actions-template@1.0.0 test /home/runner/work/github-actions-for-ci/github-actions-for-ci
+# > npx standard && npx jest
+
+# npx: installed 278 in 15.924s
+# Unexpected token '.'
+# npm ERR! Test failed.  See above for more details.
+# Error: Process completed with exit code 1. 
 
 name: Node.js CI
 
